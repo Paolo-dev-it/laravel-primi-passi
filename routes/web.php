@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('home');
 });
 
-// Route::get('/', function(){
-// return view('');
-// });
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/career', function () {
+    return view('career');
+});
+
+Route::get('/sponsor', function () {
+    return view('sponsor');
+});
